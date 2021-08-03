@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    	<title> Ejercicios de  Diseño Web II </title>
+    	<link rel="stylesheet" type="text/css" href="css/tabla.css">
+    </head>
+    <body>
+    	<div id="encabezado">
+    		<div id="logo">
+    			<img src="img/logo.jpg" class="imagen">
+    			<h2>Instituto Hondureño de Educación por Radio</h2>
+    		</div>
+    		<div>
+    			<nav>
+    				<ul class="menu">
+    					<li><a href="">Semana I</a>
+    						<ul>
+    							<li><a href="tablasencilla.html">Tabla Sencilla</a></li>
+    							<li><a href="estilodetabla.html">Estilo de Tabla</a></li>
+    							<li><a href="tablaconestilo.html"> Tabla con Estilo</a></li>
+    						</ul>
+    					</li>
+    					<li><a herf="">Semana II</a>
+    						<ul>
+    							<li><a href="tabla.html">Tabla con Estilo</a></li>
+    							<li><a href="juego.html">Juego</a></li>
+    							<li><a href="ganaste.html">Ganaste</a></li>
+    						</ul>
+    					</li>
+    					<li><a href="">Semana III</a>
+    						<ul>
+    							<li><a href="mapa.html">Mapa</a></li>
+    							<li><a href="formulario.html">Formulario</a></li>
+    							<li><a href="">Sub Item III</a></li>
+    							<li><a href="">Sub Item IV</a></li>
+    						</ul>
+    					</li>
+    					<li><a href="">Semana IV</a>
+    						<ul>
+    							<li><a href="">Sub Item I</a></li>
+    							<li><a href="">Sub Item II</a></li>
+    							<li><a href="">Sub Item III</a></li>
+    							<li><a href="">Sub Item IV</a></li>
+    						</ul>
+    					</li>
+    					<li><a href="">Semana V</a>
+    						<ul>
+    							<li><a href="">Sub Item I</a></li>
+    							<li><a href="">Sub Item II</a></li>
+    							<li><a href="">Sub Item III</a></li>
+    							<li><a href="">Sub Item IV</a></li>
+    						</ul>
+    					</li>
+    				</ul>
+    			</nav>
+    		</div>
+    	</div>
+        <div id="formulario">
+            <center>
+                <h1>Formulario de Registro</h1>
+                <form action="" method="get">
+                    <p>
+                        <label for="edad">Edad:</label> <input type="number" name="edad" id="edad" maxlength="2" />
+                        <label for="identidad">Número de identidad:</label> <input type="number" name="identidad" id="identidad" maxlength="50" />
+                    </p>
+                    <p>
+                        <label for="pnombre">Primer nombre:</label> <input type="text" name="pnombre" id="pnombre" maxlength="50" />
+                        <label for="snombre">Segundo nombre:</label> <input type="text" name="snombre" id="snombre" maxlength="50" />
+                    </p>
+                    <p>
+                        <label for="papellido">Primer apellido:</label> <input type="text" name="papellido" id="papellido" maxlength="50" />
+                        <label for="sapellido">Segundo apellido:</label> <input type="text" name="sapellido" id="sapellido" maxlength="50" />
+                    </p>
+                    <p>
+                        <label for="direccion">Dirección:</label> <input type="text" name="direccion" id="direccion" maxlength="200" />
+                        <label for="telefono">Número de teléfono:</label> <input type="number" name="telefono" id="telefono" maxlength="8" />
+                    </p>
+                    <p>
+                    Estado Civil: <input type="radio" name="estadocivil" id="ecsoltero" value="s" /> <label for="ecsoltero">Soltero</label><input type="radio" name="estadocivil" id="eccasado" value="c" /> <label for="eccasado">Casado</label><input type="radio" name="estadocivil" id="ecviudo" value="v" /> <label for="ecviudo">Viudo</label>
+                    <input type="radio" name="estadocivil" id="ecul" value="ul" /> <label for="ecul">Unión Libre</label>
+                    </p>
+                    <p>
+                        <label for="noihss">Número de IHSS(Seguro Social):</label> <input type="number" name="noihss" id="noihss" maxlength="50" />
+                        <label for="correo">Correo:</label> <input type="text" name="correo" id="correo" maxlength="100" />
+                    </p>
+                    <p>
+                        <label for="dependientes">Número de dependientes:</label> <input type="number" name="dependientes" id="dependientes" maxlength="2" />
+                    </p>
+                    <p>
+                        <label for="titulo">Título obtenido:</label> <input type="text" name="titulo" id="titulo" maxlength="200" />
+                    </p>
+                    <p><label for="exlaboral">Experiencia laboral:</label><br>
+                        <textarea name="exlaboral" id="exlaboral" rows="5" cols="60"></textarea>
+                    </p>
+                    <p><label for="empresa">Nombre de la empresa, si ya laboró con canterioridad:</label><br>
+                        <textarea name="empresa" id="empresa" rows="1" cols="60"></textarea>
+                    </p>
+                    <p><label for="razones">Razones por las que desea trabajar en esta empresa:</label><br>
+                        <textarea name="razones" id="razones" rows="5" cols="60"></textarea>
+                    </p>
+                    <p><label for="recomendacion">Recomendación personal (nombre, apellido y número de teléfono de por lo menos dos personas que no sean familia):</label><br>
+                        <textarea name="recomendacion1" id="recomendacion1" rows="1" cols="60"></textarea><br>
+                        <textarea name="recomendacion2" id="recomendacion2" rows="1" cols="60"></textarea><br>
+                        <textarea name="recomendacion3" id="recomendacion3" rows="1" cols="60"></textarea>
+                    </p>
+                    <p><label for="pasatiempos">Pasatiempos:</label><br>
+                        <textarea name="pasatiempos" id="pasatiempos" rows="2" cols="60"></textarea>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="condiciones" id="condiciones" /> <label for="condiciones">Declaro que toda la información proporcionada es verdadera.</label>
+                    </p>
+                    <p>
+                        <input type="submit" value="Enviar" />
+                    </p>
+                </form>
+            </center>
+        </div>
+        <div id="pie">
+            <div id="centro-pie">
+                <p>
+                    (c) Todos los derechos reservados. Diseñado por <a href="mailto: gm301997@gmail.com" class="email">Ana Gabriela Martinez M.</a>-2021
+                </p>
+            </div>
+        </div>
+    </body>
+    </html>
